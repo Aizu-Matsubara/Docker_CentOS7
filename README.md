@@ -10,7 +10,7 @@
 
 sudoはroot権限が必要。管理者（root)になるか、  
 `$ su`  
-で管理者のパスワード入力    
-`$ yum install -y docker`   
+で管理者のパスワード入力  
+`$ yum install -y docker`  
 `$ exit`  
 でインストール。どのみちあとあと面倒なので、管理者権限は持っておくこと。
