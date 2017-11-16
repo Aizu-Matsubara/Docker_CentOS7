@@ -1,7 +1,7 @@
 # CentOS7へのDocker導入メモ
 
 ## インストール
-インストールコマンド 
+インストールコマンド  
 `$ sudo yum install -y docker`
 
 ※これは CentOS7の公式リポジトリで「docker」という名前のパッケージが配布されているため　2017/09現在 
