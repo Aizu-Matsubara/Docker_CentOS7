@@ -21,3 +21,4 @@ sudoはroot権限が必要。管理者（root)になるか、
 Dockerを起動する。  
 `sudo systemctl start docker.service`  
 
+まだ途中
