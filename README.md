@@ -14,3 +14,10 @@ sudoはroot権限が必要。管理者（root)になるか、
 `$ yum install -y docker`  
 `$ exit`  
 でインストール。どのみちあとあと面倒なので、管理者権限は持っておくこと。
+
+## Docker起動(大抵最初の一回だけ）  
+自動起動設定（CentOS7を立ち上げた時にdockerを使えるようにしておく。)  
+`sudo systemctl enable docker.service`  
+Dockerを起動する。  
+`sudo systemctl start docker.service`  
+
