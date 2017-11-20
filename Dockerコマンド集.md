@@ -1,11 +1,15 @@
 # Docker コマンドオプション集
 
-## コマンド  
+## docker image捜索及び取得方法
+`docker search 捜索キーワード`  docker hub上にあるimageの中から捜索、結果の(コンテナ名等)一覧を表示。<br>
+>>どれがよくダウンロードされているか等表示されるので、便利<br>
+`docker pull コンテナ名` 
 
 ### 一覧表示
-`docker image`  存在する docker image　一覧を表示します。（docker pullなどで取得した手元にあるimageです）
-`docker ps` 　起動中のコンテナ一覧を表示します。  
-`docker ps -a` 　存在するコンテナ一覧を表示します。（起動中＋過去に起動し消去していないコンテナ）   
+`docker image`  存在する docker image　一覧を表示します。（docker pullなどで取得した手元にあるimageです）<br>
+<br>
+`docker ps` 　起動中のコンテナ一覧を表示します。 <br>
+`docker ps -a` 　存在するコンテナ一覧を表示します。（起動中＋過去に起動し消去していないコンテナ） <br>
 
 ### 起動中のコンテナに入る
 `docker attach コンテナID or コンテナ名`　// orはコマンドではないですよ！どっちを使ってもええということです！
