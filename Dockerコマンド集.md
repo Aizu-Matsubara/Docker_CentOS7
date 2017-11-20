@@ -2,6 +2,7 @@
 
 ## docker image捜索及び取得方法
 `docker search 捜索キーワード`  docker hub上にあるimageの中から捜索、結果の(コンテナ名等)一覧を表示。<br>
+>>例：docker search centOS
 >>どれがよくダウンロードされているか等表示されるので、便利
 
 `docker pull コンテナ名` 　手元にdocker imageをダウンロード
