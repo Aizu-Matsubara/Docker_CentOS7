@@ -2,8 +2,9 @@
 
 ## docker image捜索及び取得方法
 `docker search 捜索キーワード`  docker hub上にあるimageの中から捜索、結果の(コンテナ名等)一覧を表示。<br>
->>どれがよくダウンロードされているか等表示されるので、便利<br>
-`docker pull コンテナ名` 
+>>どれがよくダウンロードされているか等表示されるので、便利
+`docker pull コンテナ名` 　手元にdocker imageをダウンロード
+
 
 ### 一覧表示
 `docker image`  存在する docker image　一覧を表示します。（docker pullなどで取得した手元にあるimageです）<br>
